@@ -1,8 +1,6 @@
 import BillingInfo from './components/billingInfo';
 
 function App() {
-  // 1) Here we need to CHANGE structure of billingInfoData structure so that we can avoid 3 loops inside BillingInfo Component
-  // 2) We need to add custom Component that can be sent to BillingInfo Component
   const billingInfoData = [
     {
       id: 1,
