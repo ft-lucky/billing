@@ -1,6 +1,7 @@
 import BillingInfo from "./components/billingInfo";
 import PaymentPage from "./components/paymentPage";
 import ConfirmationPage from "./components/confirmationPage";
+import GetTickets from './components/getTickets';
 
 function App() {
   const referralPromotions = [
@@ -210,11 +211,12 @@ function App() {
         paymentInitialValues={paymentInitialValues}
         errorText=""
       /> */}
-      <ConfirmationPage
+      {/* <ConfirmationPage
         referralPromotions={referralPromotions}
         icons={svgUrsl}
         shareLink='https://restlessnit.es/events/iza-livemusic10dec2020?ttf_r=6'
-      />
+      /> */}
+      <GetTickets eventId={3483} />
     </div>
   );
 }
